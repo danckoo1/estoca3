@@ -273,6 +273,11 @@ class Scrat:
 
 
 if __name__ == "__main__":
+    '''
+    Lo sentimos si el main es poco claro, pero a fin de cuentas es hacer los calculos
+    matriciales respectivos, ahi veras a cuales corresponde cada uno
+    '''
+
     ardilla = Scrat(4, 0)
     matrix = np.array(ardilla.g_matrix_print())
     '''
